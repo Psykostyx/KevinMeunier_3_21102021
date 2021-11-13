@@ -1,0 +1,14 @@
+{
+  "name": "projet3",
+  "version": "1.0.0",
+  "description": "Ohmyfood",
+  "main": "index.html",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.43.4"
+  }
+}
