@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["sass/Components/osef.scss","sass/Utils/mixins.scss"],"names":[],"mappings":"AAAA;ECCI;EACA,iBDDqB;ECErB","file":"style.css"}
+{"version":3,"sourceRoot":"","sources":["sass/Components/osef.scss","sass/Utils/mixins.scss","sass/Pages/index.scss"],"names":[],"mappings":"AAAA;ECCI;EACA,iBDDqB;ECErB;;;ACHJ;EACI;EACA;EACA;EACA;;AAGA;EACA;;AAGA;EACI;EACA;;AAGJ;EACI;EACA;;AAGJ;EACI","file":"style.css"}

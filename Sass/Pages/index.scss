@@ -1,0 +1,25 @@
+.card-propriety {
+    background-color: white;
+    border-radius: 0 25% 0 25%;
+    display: flex;
+    flex-direction: column;
+    
+
+    &:visited {
+    color: black;
+    
+}
+    & img {
+        width: 300px;
+        height: 150px;
+    }
+
+    & a {
+        text-decoration: none;
+        color: black;
+    }
+
+    & i{
+        justify-content: space-between;
+    }
+}
