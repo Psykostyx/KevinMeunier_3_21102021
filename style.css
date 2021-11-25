@@ -1,7 +1,40 @@
-.flexbetween {
+.logo {
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+
+.rules-propriety {
   display: flex;
-  justify-content: flex-between;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.rules-propriety ul {
+  list-style: none;
+}
+
+.rulesblocpropriety {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.rulesblocpropriety i {
   align-items: center;
+  justify-content: center;
+}
+
+.nomber-propriety {
+  border: solid 1px #9356DC;
+  border-radius: 50% 50% 50% 50%;
+  background-color: #9356DC;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  line-height: 0;
+  width: 20%;
 }
 
 .card-propriety {
@@ -23,6 +56,13 @@
 }
 .card-propriety i {
   justify-content: space-between;
+}
+
+.cardtext {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  line-height: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
