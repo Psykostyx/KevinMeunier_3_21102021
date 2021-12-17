@@ -49,6 +49,7 @@ footer {
   display: flex;
   text-align: left;
   padding-bottom: 15px;
+  margin-top: -60px;
 }
 footer .logofoot {
   font-family: "Shrikhand", cursive;
@@ -150,6 +151,7 @@ body {
   align-items: center;
   padding-bottom: 15px;
   padding-top: 15px;
+  margin-bottom: 50px;
 }
 .restaurant-card h3 {
   margin-left: 15px;
@@ -225,18 +227,42 @@ body {
   color: #0f9071;
 }
 
+@media (max-width: 992px) {
+  .restaurant-card {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .card-propriety {
+    width: 40%;
+  }
+}
 body {
   margin: 0;
 }
 
-.bordermenu {
-  background-color: #f2f2f2;
-  height: 1040px;
-}
-
 .img-menu {
   width: 375px;
-  height: 200px;
+  height: 250px;
+}
+
+.bordermenu {
+  background-color: #f2f2f2;
+  padding-bottom: 15px;
+  border-radius: 40px 40px 0 0;
+  position: relative;
+  top: -60px;
+}
+
+.titre-intro-propriety {
+  margin-left: 5px;
+}
+
+.border-titre {
+  border-bottom: #99E2D0 2px solid;
+  width: 10%;
+  margin-left: 5px;
 }
 
 .titre-propriety {
@@ -265,7 +291,10 @@ body {
   padding-top: 5px;
   background-color: white;
   border-radius: 20px;
-  margin-top: 5px;
+  margin-top: 10px;
+  padding-right: 15px;
+  width: 90%;
+  margin-left: 10px;
 }
 
 .description-restaurant {
