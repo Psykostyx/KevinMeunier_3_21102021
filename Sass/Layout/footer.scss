@@ -30,3 +30,10 @@ footer{
         color: white;
     }
 }
+@media (min-width: 668px)and(max-width: 992px) //**Tablette version**//
+{
+    footer{
+        font-size: 25px;
+        margin-top: -75px;
+    }
+}

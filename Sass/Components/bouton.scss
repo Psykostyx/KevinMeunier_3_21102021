@@ -20,3 +20,19 @@
     background: linear-gradient(180deg, #e370da, #a05adc);
     color: white;
     }
+@media (min-width: 668px)and(max-width: 992px){
+    .btn-index{
+        margin-left: 270px;
+        width: 270px;
+        margin-left: 245px;
+    }
+    .btn-buy{
+        font-size: 40px;
+        width: 160px;
+        margin-top: 50px;
+        margin-left: 250px;
+        margin-bottom: 70px;
+        padding-top: 20px;
+        padding-right: 60px;
+    }
+}

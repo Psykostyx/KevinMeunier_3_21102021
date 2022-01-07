@@ -22,3 +22,19 @@
     }
     
 }
+@media (min-width: 668px)and(max-width: 992px) //**Tablette version**//
+{
+    .headermenu{
+        margin-top: 15px;
+        margin-bottom: 5px;
+
+        & img{
+            width: 40%;
+            height: 30%;
+        }
+
+        & a{
+            font-size: 40px;
+        }
+    }
+}
