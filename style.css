@@ -26,16 +26,33 @@
   .btn-index {
     margin-left: 270px;
     width: 270px;
-    margin-left: 245px;
+    margin-left: 200px;
   }
 
   .btn-buy {
     font-size: 40px;
     width: 160px;
     margin-top: 50px;
-    margin-left: 250px;
+    margin-left: 190px;
     margin-bottom: 70px;
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-right: 60px;
+  }
+}
+@media (min-width: 993px) and (max-width: 1980px) {
+  .btn-index {
+    margin-left: 270px;
+    width: 270px;
+    margin-left: 650px;
+  }
+
+  .btn-buy {
+    font-size: 40px;
+    width: 160px;
+    margin-top: 50px;
+    margin-left: 190px;
+    margin-bottom: 70px;
+    padding-top: 10px;
     padding-right: 60px;
   }
 }
@@ -243,7 +260,7 @@ body {
   font-size: 15px;
 }
 
-.new-propriety {
+#new-propriety {
   border: solid 1px #99e2d0;
   padding: 5px 5px 5px 5px;
   position: absolute;
@@ -253,7 +270,7 @@ body {
   color: #0f9071;
 }
 
-.new-propriety2 {
+#new-propriety2 {
   border: solid 1px #99e2d0;
   padding: 5px 5px 5px 5px;
   position: absolute;
@@ -272,6 +289,9 @@ body {
     font-size: 25px;
   }
 
+  .rules-propriety {
+    align-items: center;
+  }
   .rules-propriety h3 {
     font-size: 25px;
   }
@@ -286,13 +306,14 @@ body {
   }
 
   .nomber-propriety {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .restaurant-card {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
+    padding-bottom: 40px;
   }
   .restaurant-card h3 {
     font-size: 25px;
@@ -327,14 +348,73 @@ body {
     font-size: 30px;
   }
 
-  .new-propriety {
-    font-size: 20px;
-    top: 890px;
+  #new-propriety {
+    font-size: 16px;
+    top: 875px;
   }
 
-  .new-propriety2 {
-    font-size: 20px;
-    top: 1155px;
+  #new-propriety2 {
+    font-size: 16px;
+    top: 1140px;
+  }
+}
+@media (min-width: 993px) and (max-width: 1980px) {
+  header {
+    width: 100%;
+  }
+
+  .description-propriety {
+    width: 100%;
+  }
+
+  .rules-propriety {
+    align-items: center;
+  }
+
+  .restaurant-card {
+    display: block;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .restaurant-card img {
+    width: 360px;
+    height: 200px;
+  }
+
+  .rulesblocpropriety {
+    width: 50%;
+  }
+
+  .card {
+    display: flex;
+  }
+
+  .card-propriety {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 89%;
+  }
+  .card-propriety .far {
+    position: initial;
+    display: block;
+    align-items: baseline;
+  }
+
+  .cardtext {
+    align-items: center;
+  }
+
+  #new-propriety {
+    left: 18%;
+    top: 94%;
+    width: 4%;
+  }
+
+  #new-propriety2 {
+    left: 35%;
+    top: 94%;
+    width: 4%;
   }
 }
 body {
@@ -465,6 +545,10 @@ body {
     margin-top: -70px;
     margin-bottom: 10px;
     padding-bottom: 30px;
+  }
+
+  .border-titre {
+    margin-bottom: 15px;
   }
 }
 

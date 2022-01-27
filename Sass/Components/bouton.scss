@@ -24,15 +24,32 @@
     .btn-index{
         margin-left: 270px;
         width: 270px;
-        margin-left: 245px;
+        margin-left: 200px;
     }
     .btn-buy{
         font-size: 40px;
         width: 160px;
         margin-top: 50px;
-        margin-left: 250px;
+        margin-left: 190px;
         margin-bottom: 70px;
-        padding-top: 20px;
+        padding-top: 10px;
         padding-right: 60px;
     }
 }
+@media (min-width: 993px)and(max-width: 1980px) //**Desktop version**//
+ {
+    .btn-index{
+        margin-left: 270px;
+        width: 270px;
+        margin-left: 650px;
+    }
+    .btn-buy{
+        font-size: 40px;
+        width: 160px;
+        margin-top: 50px;
+        margin-left: 190px;
+        margin-bottom: 70px;
+        padding-top: 10px;
+        padding-right: 60px;
+    }
+ }

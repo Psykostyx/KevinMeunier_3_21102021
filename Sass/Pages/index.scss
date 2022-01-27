@@ -1,5 +1,6 @@
 body{
     margin: 0;
+   
 }
 .logo{
     display: block;
@@ -143,7 +144,7 @@ body{
     font-size: 15px;
 }
 
-.new-propriety{
+#new-propriety{
     border: solid 1px #99e2d0;
     padding: 5px 5px 5px 5px;
     position: absolute;
@@ -153,7 +154,7 @@ body{
     color: #0f9071;
 
 }
-.new-propriety2{
+#new-propriety2{
     border: solid 1px #99e2d0;
     padding: 5px 5px 5px 5px;
     position: absolute;
@@ -173,6 +174,7 @@ body{
     }
     .rules-propriety{
 
+        align-items: center;
         & h3{
             font-size: 25px;
         }
@@ -187,13 +189,14 @@ body{
         }
     }
     .nomber-propriety{
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .restaurant-card{
         flex-direction: row;
         flex-wrap: wrap;
         width: 100%;
+        padding-bottom: 40px;
 
         & h3{
             font-size: 25px;
@@ -214,14 +217,11 @@ body{
             margin-bottom: -15%;
         }
     }
-   
-    
     .rulesblocpropriety{
         width: 50%;
     } 
     .card-propriety{
         flex-direction: row;
-
     }
     .cardtext{
         flex-direction: column;
@@ -231,12 +231,70 @@ body{
             font-size: 30px;
         }
     }
-    .new-propriety{
-        font-size: 20px;
-        top: 890px;
+    #new-propriety{
+        font-size: 16px;
+        top: 875px;
     }
-    .new-propriety2{
-        font-size: 20px;
-        top: 1155px;
+    #new-propriety2{
+        font-size: 16px;
+        top: 1140px;
+    }
+}
+@media (min-width: 993px)and(max-width: 1980px) //**Desktop version**//
+{
+    header{
+        width: 100%;
+    }
+
+    .description-propriety{
+        width: 100%;
+    }
+    .rules-propriety{
+        align-items: center;
+    }
+    .restaurant-card{
+        display: block; 
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+
+
+        & img {
+            width: 360px;
+            height: 200px;
+        }
+    }
+    .rulesblocpropriety{
+        width: 50%;
+    }
+    .card{
+        display: flex;
+    }
+    .card-propriety{
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 89%;
+        
+
+        & .far{
+            position: initial;
+            display: block;
+            align-items: baseline;
+            
+        }
+    }
+    .cardtext{
+        align-items: center;
+    }
+    #new-propriety{
+        left: 18%;
+        top: 94%;
+        width: 4%;
+    }
+    
+    #new-propriety2 {
+        left: 35%;
+        top: 94%;
+        width: 4%;
     }
 }
