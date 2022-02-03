@@ -1,12 +1,14 @@
 .btn-index {
-  border: #9356DC 2px transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 20px;
-  width: 235px;
-  margin-left: 70px;
+  width: 65%;
   padding-top: 10px;
   padding-bottom: 10px;
   background: linear-gradient(180deg, #e370da, #a05adc);
   color: white;
+  margin-left: 15%;
 }
 
 .btn-buy {
@@ -22,38 +24,40 @@
   color: white;
 }
 
-@media (min-width: 668px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 992px) {
   .btn-index {
-    margin-left: 270px;
-    width: 270px;
-    margin-left: 200px;
+    margin: auto;
+    justify-content: center;
+    width: 40%;
   }
 
   .btn-buy {
     font-size: 40px;
     width: 160px;
-    margin-top: 50px;
-    margin-left: 190px;
-    margin-bottom: 70px;
-    padding-top: 10px;
-    padding-right: 60px;
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-bottom: 5%;
+    padding-right: 3%;
+    display: flex;
+    justify-content: center;
   }
 }
 @media (min-width: 993px) and (max-width: 1980px) {
   .btn-index {
-    margin-left: 270px;
-    width: 270px;
-    margin-left: 650px;
+    margin: auto;
+    justify-content: center;
+    width: 20%;
   }
 
   .btn-buy {
     font-size: 40px;
     width: 160px;
-    margin-top: 50px;
-    margin-left: 190px;
-    margin-bottom: 70px;
-    padding-top: 10px;
-    padding-right: 60px;
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-bottom: 5%;
+    padding-right: 2%;
+    display: flex;
+    justify-content: center;
   }
 }
 .headermenu {
@@ -62,8 +66,8 @@
   text-decoration: none;
 }
 .headermenu img {
-  width: 150px;
-  height: 35px;
+  width: 50%;
+  margin-top: 5px;
 }
 .headermenu a {
   font-size: 25px;
@@ -72,22 +76,40 @@
   margin-top: 5px;
   margin-right: 70px;
   margin-left: 10px;
+  margin-top: 5px;
 }
 .headermenu a:visited {
   color: black;
 }
 
-@media (min-width: 668px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 992px) {
   .headermenu {
     margin-top: 15px;
     margin-bottom: 5px;
   }
   .headermenu img {
-    width: 40%;
-    height: 30%;
+    margin-left: 20%;
   }
   .headermenu a {
     font-size: 40px;
+    margin-top: 2%;
+    margin-left: 5%;
+  }
+}
+@media (min-width: 993px) and (max-width: 1980px) {
+  .headermenu {
+    margin-top: -30px;
+    margin-bottom: 5px;
+  }
+  .headermenu img {
+    width: 40%;
+    margin-top: 4%;
+    margin-left: 10%;
+  }
+  .headermenu a {
+    font-size: 50px;
+    margin-top: 4%;
+    margin-left: 10%;
   }
 }
 footer {
@@ -97,6 +119,7 @@ footer {
   text-align: left;
   padding-bottom: 15px;
   margin-top: -60px;
+  width: 117%;
 }
 footer .logofoot {
   font-family: "Shrikhand", cursive;
@@ -132,7 +155,8 @@ body {
 .logo {
   display: block;
   margin: auto;
-  width: 60%;
+  width: 50%;
+  margin-top: 5px;
 }
 
 .marker-propriety {
@@ -218,6 +242,8 @@ body {
 .restaurant-card a {
   text-decoration: none;
   color: black;
+  width: 25%;
+  margin: 0 25px;
 }
 
 .card-propriety {
@@ -258,14 +284,15 @@ body {
   margin-left: 10px;
   margin-top: 15px;
   font-size: 15px;
+  position: relative;
 }
 
 #new-propriety {
   border: solid 1px #99e2d0;
   padding: 5px 5px 5px 5px;
   position: absolute;
-  top: 775px;
-  right: 40px;
+  top: -250%;
+  right: 5%;
   background-color: #99e2d0;
   color: #0f9071;
 }
@@ -274,13 +301,13 @@ body {
   border: solid 1px #99e2d0;
   padding: 5px 5px 5px 5px;
   position: absolute;
-  top: 1055px;
-  right: 40px;
+  top: -250%;
+  right: 5%;
   background-color: #99e2d0;
   color: #0f9071;
 }
 
-@media (min-width: 668px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 992px) {
   .marker-propriety {
     font-size: 20px;
   }
@@ -329,7 +356,8 @@ body {
     border-radius: 10% 0 0 10%;
   }
   .card-propriety .far {
-    margin-bottom: -15%;
+    margin-bottom: -35%;
+    margin-right: -65%;
   }
 
   .rulesblocpropriety {
@@ -343,6 +371,7 @@ body {
   .cardtext {
     flex-direction: column;
     font-size: 30px;
+    position: relative;
   }
   .cardtext h4 {
     font-size: 30px;
@@ -350,12 +379,16 @@ body {
 
   #new-propriety {
     font-size: 16px;
-    top: 875px;
+    position: absolute;
+    top: -4%;
+    right: -45%;
   }
 
   #new-propriety2 {
     font-size: 16px;
-    top: 1140px;
+    position: absolute;
+    top: -4%;
+    right: -55%;
   }
 }
 @media (min-width: 993px) and (max-width: 1980px) {
@@ -376,10 +409,6 @@ body {
     align-items: flex-start;
     justify-content: space-between;
     width: 100%;
-  }
-  .restaurant-card img {
-    width: 360px;
-    height: 200px;
   }
 
   .rulesblocpropriety {
@@ -403,18 +432,17 @@ body {
 
   .cardtext {
     align-items: center;
+    position: relative;
   }
 
   #new-propriety {
-    left: 18%;
-    top: 94%;
-    width: 4%;
+    position: absolute;
+    top: -205%;
   }
 
   #new-propriety2 {
-    left: 35%;
-    top: 94%;
-    width: 4%;
+    position: absolute;
+    top: -205%;
   }
 }
 body {
@@ -422,7 +450,7 @@ body {
 }
 
 .img-menu {
-  width: 375px;
+  width: 117%;
   height: 250px;
 }
 
@@ -432,6 +460,7 @@ body {
   border-radius: 40px 40px 0 0;
   position: relative;
   top: -60px;
+  width: 117%;
 }
 
 .titre-intro-propriety {
@@ -500,11 +529,9 @@ body {
   margin-bottom: 10px;
 }
 
-@media (min-width: 668px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 992px) {
   .img-menu {
-    width: 100%;
     height: 50%;
-    max-height: 30%;
   }
 
   #redimension-img {
@@ -548,6 +575,58 @@ body {
   }
 
   .border-titre {
+    width: 7%;
+    margin-bottom: 15px;
+  }
+}
+@media (min-width: 993px) and (max-width: 1980px) {
+  .img-menu {
+    height: 50%;
+  }
+
+  #redimension-img {
+    height: 512px;
+  }
+
+  .bordermenu {
+    top: -450px;
+    font-size: 25px;
+    margin-bottom: -450px;
+    width: 100%;
+  }
+
+  .titre-propriety {
+    font-size: 40px;
+  }
+  .titre-propriety .far {
+    font-size: 30px;
+    margin-top: 55px;
+  }
+
+  .bloc-restaurant-propriety {
+    font-size: 30px;
+    width: 95%;
+  }
+
+  .description-restaurant {
+    font-size: 30px;
+  }
+  .description-restaurant h4 {
+    font-size: 30px;
+  }
+  .description-restaurant p {
+    font-size: 30px;
+  }
+
+  .restaurant-prix {
+    margin-right: 35px;
+    margin-top: -70px;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+  }
+
+  .border-titre {
+    width: 4%;
     margin-bottom: 15px;
   }
 }
