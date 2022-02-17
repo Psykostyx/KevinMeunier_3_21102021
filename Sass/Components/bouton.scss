@@ -1,12 +1,15 @@
 .btn-index{
-    border: $color-primary 2px transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 20px;
-    width: 235px;
-    margin-left: 70px;
+    width: 65%;
     padding-top: 10px;
     padding-bottom: 10px;
     background: linear-gradient(180deg, #e370da, #a05adc);
     color: white;
+    margin-left:15%;
+    
 }
 .btn-buy{
     border-radius: 20px;
@@ -20,36 +23,38 @@
     background: linear-gradient(180deg, #e370da, #a05adc);
     color: white;
     }
-@media (min-width: 668px)and(max-width: 992px){
+@media (min-width: 768px)and(max-width: 992px){
     .btn-index{
-        margin-left: 270px;
-        width: 270px;
-        margin-left: 200px;
+        margin: auto;
+        justify-content: center;
+        width: 40%;
     }
     .btn-buy{
         font-size: 40px;
         width: 160px;
-        margin-top: 50px;
-        margin-left: 190px;
-        margin-bottom: 70px;
-        padding-top: 10px;
-        padding-right: 60px;
+        margin-top: 5%;
+        margin-left:35%;
+        margin-bottom: 5%;
+        padding-right: 3%;
+        display: flex;
+        justify-content: center;
     }
 }
 @media (min-width: 993px)and(max-width: 1980px) //**Desktop version**//
  {
     .btn-index{
-        margin-left: 270px;
-        width: 270px;
-        margin-left: 650px;
+        margin: auto;
+        justify-content: center;
+        width: 20%;
     }
     .btn-buy{
         font-size: 40px;
         width: 160px;
-        margin-top: 50px;
-        margin-left: 190px;
-        margin-bottom: 70px;
-        padding-top: 10px;
-        padding-right: 60px;
+        margin-top: 5%;
+        margin-left:35%;
+        margin-bottom: 5%;
+        padding-right: 2%;
+        display: flex;
+        justify-content: center;
     }
  }
